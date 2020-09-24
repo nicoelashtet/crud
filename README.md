@@ -1,0 +1,7 @@
+CREATE TABLE student (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    student_id INT(10) NOT NULL,
+    department VARCHAR(100) NOT NULL
+);
